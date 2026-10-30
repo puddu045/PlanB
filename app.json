@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "PlanB",
+    "slug": "planb",
+    "scheme": "planb",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.planb.community"
+    },
+    "android": {
+      "package": "com.planb.community"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "PlanB",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": ["expo-router", "expo-status-bar"],
+    "icon": "./assets/icon.png"
+  }
+}
